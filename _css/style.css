@@ -1,0 +1,261 @@
+html {
+    font-size: 62.5%; /* para cada 1rem equivale 10px */
+  }
+
+h1{
+    font-size: 6rem;
+    color: rgba(79,101,52,1);
+}
+
+p{
+    font-size: 1.5rem;
+    color: rgba(79,101,52,1);
+    text-align: center;
+}
+
+h2{ 
+    margin-top: 0;
+    font-size: 3rem;
+    color: rgba(79,101,52,1);
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face{
+    font-family: 'barlow-bold';
+    src: url(/_fonts/barlow-bold.ttf);
+    src: local('barlow-bold'), local('barlow-bold'), url(/_fonts/barlow-bold.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'barlow-regular';
+    src: url(/_fonts/barlow-regular.ttf);
+    src: local('barlow-regular'), local('barlow-regular'), url(/_fonts/barlow-regular.ttf) format('truetype');
+}
+
+.titulo{
+    font-family: 'barlow-bold';
+}
+
+.paragrafo{
+    font-family: 'barlow-regular';
+}
+
+#top{
+    background-image: url(/_css/_images/banner-topo-768px.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-height: 900px;
+    width: auto;
+}
+
+#menu{
+    float: right;
+    width: 70px;
+    padding-top: 18px;
+    display: block;
+    border: solid transparent 5px;
+    transition: background-color, border, 5s, linear; -webkit-transition: background-color, border, 1s, linear; -o-transition: background-color, border, 1s, linear; -moz-transition: background-color, border, 1s, linear; -ms-transition: background-color, border, 1s, linear;
+}
+
+#menu-big{
+    height: 150px;
+    width: 250px;
+    padding-top: 18px;
+    display: none;
+}
+
+#imagem-menu{
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+}
+
+#header{
+    height: 100%;
+    max-height: 100px;
+    width: auto;
+}
+
+#header h1{
+    float: left;
+    margin-top: 10px;
+    padding-left:5%;
+}
+
+#header nav ul{
+    list-style: none;
+  }
+
+
+#header nav ul li a {
+    text-decoration: none;
+    padding: 0;
+  }
+  
+
+
+#intro-header{
+    height: 100%;
+    max-height: 500px;
+}
+
+#intro-header h1{
+    margin: 0 40%;
+}
+
+#intro-header p{
+    position: relative;
+    margin: 5px 20%;
+    left: 0%;
+}
+
+#intro-header h3 a{
+    text-decoration: none;
+    color: rgba(79,101,52,1);
+    border-bottom: solid 2px rgba(236, 167, 63, 1);
+    padding-bottom: 1rem;
+    position: relative;
+    left: 43%;
+    transition: font-size 0.5s linear; -webkit-transition: font-size 0.5s linear; -o-transition: font-size 0.5s linear; -moz-transition: font-size 0.5s linear; -ms-transition: font-size 0.5s linear;
+}
+
+#intro-header h3 a:hover{
+    font-size: 1.6rem;
+}
+#center{
+    background-color: rgba(236, 167, 63, 1);
+    background-size: 100% 100%;
+    height: 100%;
+    max-height: 560px;
+    width: auto;
+}
+
+#center h2{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#center p{
+    position: relative;
+    margin: 5px 20%;
+    left: 0%;
+}
+
+#center h3 a{
+    text-decoration: none;
+    color: rgba(79,101,52,1);
+    border-bottom: solid 2px rgba(79,101,52,1);
+    padding-bottom: 1rem;
+    position: relative;
+    left: 43%;
+    transition: font-size 0.5s linear; -webkit-transition: font-size 0.5s linear; -o-transition: font-size 0.5s linear; -moz-transition: font-size 0.5s linear; -ms-transition: font-size 0.5s linear;
+}
+
+#center h3 a:hover{
+    font-size: 1.6rem;
+}
+
+#rod{
+
+    background-image: url(/_css/_images/banner-rodape-768px.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1180px;
+    max-height: 1180px;
+    width: auto;
+
+}
+
+#rod h1{
+    margin: 0 42%;
+    padding-bottom: 80px;
+    font-size: 6rem;
+    color: white;
+}
+
+#rod h2{
+    margin-top: 0;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(236, 167, 63, 1);
+}
+
+#rod h3{
+    margin-top: 0;
+    margin: 0 42%;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 3rem;
+    color: rgba(236, 167, 63, 1);
+}
+
+#rodp{
+    color: white;
+    margin: 0 3%;
+    width: 100%;
+}
+
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    position: relative;
+    left: 5%;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.field label, 
+.field span{
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    color: white;
+    font-family: 'barlow-regular';
+}
+
+input[type=text],
+input[type=Assunto],
+
+textarea{
+    width: 100%;
+    height: 30px;
+    width: 90%;
+    line-height: 30px;
+
+}
+
+textarea{
+    line-height: 20px;
+    height: 90px;
+    width: 90%;
+}
+
+input[type=submit]{
+    display: block;
+    font-family: 'barlow-bold';
+    font-size: 2.5rem;
+    background-color: transparent;
+    color: rgba(236, 167, 63, 1);
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 90px auto;
+    text-align: center;
+}

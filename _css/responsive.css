@@ -1,0 +1,102 @@
+/*Outros Tamanhos*/
+
+@media screen and (min-width: 992px) {
+    #top {
+        max-height: 1200px;
+    }
+    #center-colum1{
+        float: left;
+    }
+
+    #center-colum2{
+        float: right;
+    }
+
+    #rod{
+
+        background-image: url(/_css/_images/banner-rodape-992px.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 1180px;
+        max-height: 1180px;
+        width: auto;
+    
+    }
+    #menu{
+        float: right;
+        width: 70px;
+        padding-top: 18px;
+        display: none;
+    }
+    #menu-big{
+        float: right;
+        margin-right: 10%;
+        width: 210px;
+        padding-top: 18px;
+        display: block;
+    }
+
+    #center{
+        background-color: rgba(236, 167, 63, 1);
+        background-size: 100% 100%;
+        height: 100%;
+        max-height: 480px;
+        width: 85%;
+        border-right: solid rgba(236, 167, 63, 1) 5px;
+        border-top-right-radius: 90px;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    #top {
+        background-image: url(/_css/_images/banner-topo-1920px.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        max-height: 900px;
+        width: auto;
+    }
+
+    #center-colum1{
+        float: left;
+    }
+
+    #center-colum2{
+        float: right;
+    }
+
+    #rod{
+
+        background-image: url(/_css/_images/banner-rodape-1920px.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 1180px;
+        max-height: 1180px;
+        width: auto;
+    
+    }
+    #menu{
+        float: right;
+        margin-right: 10%;
+        width: 70px;
+        padding-top: 18px;
+        display: none;
+    }
+    #menu-big{
+        float: right;
+        width: 210px;
+        padding-top: 18px;
+        display: block;
+    }
+
+    #center{
+        background-color: rgba(236, 167, 63, 1);
+        background-size: 100% 100%;
+        height: 100%;
+        max-height: 400px;
+        width: 85%;
+        border-right: solid rgba(236, 167, 63, 1) 5px;
+        border-top-right-radius: 90px;
+    }
+}
