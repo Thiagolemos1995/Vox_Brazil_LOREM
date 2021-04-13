@@ -1,9 +1,13 @@
 # Site_Example "Lorem"
 
 🔧Em desenvolvimento🔧
+
 Próximos passos:
+
 ✔Melhoria do conceito de responsividade utilizando o conceito de MobileFirst.
+
 ✔Será aplicada técnicas de scss para desenvolvimento simplificado do layout utilizando o básico de node.js.
+
 ✔Será utilizado conceitos de interatividade aplicando Javascript.
 
 Ao abir o index.html, irá aparecer mostrar o layout que optei por construir utilizando o conceito de Mobile first e responsividade.
